@@ -38,8 +38,11 @@
                                             <backgroundConfiguration key="background" image="choice1Background"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wFp-bm-iCC"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nC-Of-kJY">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nC-Of-kJY">
                                         <rect key="frame" x="0.0" y="659" width="361" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="CWF-jD-2bh"/>
@@ -49,6 +52,9 @@
                                             <backgroundConfiguration key="background" image="choice2Background"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n8x-Ca-DZ8"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
