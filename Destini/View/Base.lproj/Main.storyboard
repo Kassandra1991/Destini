@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0KD-VW-j3V">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0KD-VW-j3V">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lNe-vJ-oca">
                                 <rect key="frame" x="16" y="59" width="361" height="759"/>
@@ -64,9 +63,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lNe-vJ-oca" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0aG-lq-BYe"/>
+                            <constraint firstItem="0KD-VW-j3V" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5HR-qv-NFk"/>
+                            <constraint firstItem="0KD-VW-j3V" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KF4-1K-n24"/>
+                            <constraint firstItem="0KD-VW-j3V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SXg-4o-dS7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lNe-vJ-oca" secondAttribute="bottom" id="ZXR-Rq-Jms"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lNe-vJ-oca" secondAttribute="trailingMargin" constant="16" id="bie-eF-kv0"/>
                             <constraint firstItem="lNe-vJ-oca" firstAttribute="leadingMargin" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lak-1H-Hgx"/>
+                            <constraint firstAttribute="bottom" secondItem="0KD-VW-j3V" secondAttribute="bottom" id="nbJ-n7-pde"/>
                         </constraints>
                     </view>
                     <connections>
