@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030D2D23298BC6CC00254BD7 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D2D22298BC6CC00254BD7 /* Story.swift */; };
+		030D2D25298BC6E000254BD7 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D2D24298BC6E000254BD7 /* StoryBrain.swift */; };
 		03C06A1F298B1F2D009304DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C06A1E298B1F2D009304DF /* AppDelegate.swift */; };
 		03C06A21298B1F2D009304DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C06A20298B1F2D009304DF /* SceneDelegate.swift */; };
 		03C06A23298B1F2D009304DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C06A22298B1F2D009304DF /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030D2D22298BC6CC00254BD7 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		030D2D24298BC6E000254BD7 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+		030D2D27298BC70400254BD7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		03C06A1B298B1F2D009304DF /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C06A1E298B1F2D009304DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C06A20298B1F2D009304DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +42,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030D2D20298BC69B00254BD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03C06A22298B1F2D009304DF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		030D2D21298BC6A600254BD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03C06A24298B1F2D009304DF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		030D2D26298BC6E600254BD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				030D2D22298BC6CC00254BD7 /* Story.swift */,
+				030D2D24298BC6E000254BD7 /* StoryBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		03C06A12298B1F2D009304DF = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +88,13 @@
 			children = (
 				03C06A1E298B1F2D009304DF /* AppDelegate.swift */,
 				03C06A20298B1F2D009304DF /* SceneDelegate.swift */,
-				03C06A22298B1F2D009304DF /* ViewController.swift */,
-				03C06A24298B1F2D009304DF /* Main.storyboard */,
+				030D2D21298BC6A600254BD7 /* View */,
+				030D2D26298BC6E600254BD7 /* Model */,
+				030D2D20298BC69B00254BD7 /* Controller */,
 				03C06A27298B1F2F009304DF /* Assets.xcassets */,
 				03C06A29298B1F2F009304DF /* LaunchScreen.storyboard */,
 				03C06A2C298B1F2F009304DF /* Info.plist */,
+				030D2D27298BC70400254BD7 /* README.md */,
 			);
 			path = Destini;
 			sourceTree = "<group>";
@@ -138,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030D2D25298BC6E000254BD7 /* StoryBrain.swift in Sources */,
 				03C06A23298B1F2D009304DF /* ViewController.swift in Sources */,
 				03C06A1F298B1F2D009304DF /* AppDelegate.swift in Sources */,
 				03C06A21298B1F2D009304DF /* SceneDelegate.swift in Sources */,
+				030D2D23298BC6CC00254BD7 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
