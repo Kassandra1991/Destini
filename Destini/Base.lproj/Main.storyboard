@@ -69,6 +69,11 @@
                             <constraint firstItem="lNe-vJ-oca" firstAttribute="leadingMargin" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lak-1H-Hgx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1Button" destination="Wks-s2-jAn" id="TIS-sA-MKD"/>
+                        <outlet property="choice2Button" destination="6nC-Of-kJY" id="suz-rS-BhM"/>
+                        <outlet property="storyLabel" destination="AG8-kJ-nzG" id="lOZ-zT-WNv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
